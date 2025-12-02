@@ -1,5 +1,5 @@
 FROM openjdk:17.0.2-jdk
 WORKDIR /app
-COPY target/myapp.jar app.jar
+COPY target/hello-other-world.jar app.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]
