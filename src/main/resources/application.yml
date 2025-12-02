@@ -1,4 +1,0 @@
-server:
-  port: 8090
-application:
-  name: Hello World Application
