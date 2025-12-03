@@ -3,10 +3,12 @@ package hello.world.app.service.impl;
 import hello.world.app.models.User;
 import hello.world.app.service.CustomService;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Service;
 
 import java.sql.ResultSet;
 import java.util.List;
 
+@Service
 public class CustomServiceImpl implements CustomService {
     private final JdbcTemplate jdbcTemplate;
 
